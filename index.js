@@ -16,7 +16,7 @@ const facts = [
   "He hated the sound of his own voice"
 ];
 
-var loudFacts = new Array(4);
+var loudFacts = new Array();
 
 function johnLennonFacts(facts) {
   var i = 0
