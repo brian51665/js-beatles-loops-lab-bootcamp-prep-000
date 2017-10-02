@@ -25,5 +25,5 @@ function johnLennonFacts(facts) {
       newFacts[i] = facts[i] + "!!!" ;
       i++;
   }
-  return facts
+  return newFacts
 }
