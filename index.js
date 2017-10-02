@@ -22,6 +22,7 @@ function iLoveTheBeatles(n){
   var emptyArray = []
   do {
       emptyArray.push("I love the Beatles!");
+      n++;
       return emptyArray;
   } while (n < 16)
 }
