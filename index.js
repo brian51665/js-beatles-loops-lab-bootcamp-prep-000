@@ -21,8 +21,8 @@ var loudFacts = new Array();
 var i = 0;
 
 function johnLennonFacts(facts) {
-  while (loudFacts.length < 4){
-    loudFacts = (facts[i] + "!!!").push ;
+  while (i < 4){
+    loudFacts.push = (facts[i] + "!!!") ;
     i++;
   }
   return loudFacts
