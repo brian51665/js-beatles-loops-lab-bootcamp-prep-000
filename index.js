@@ -19,7 +19,7 @@ const facts = [
 var loudFacts = []
 
 function johnLennonFacts(facts) {
-  let i = 0
+  var i = 0
   while (i < 4){
     loudFacts[i] = facts[i] + "!!!";
     i++;
