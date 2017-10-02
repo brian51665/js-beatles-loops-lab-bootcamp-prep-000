@@ -19,5 +19,8 @@ return facts
 }
 
 function iLoveTheBeatles(n){
-
+  var empArr1 = []
+  do {
+    
+  }
 }
