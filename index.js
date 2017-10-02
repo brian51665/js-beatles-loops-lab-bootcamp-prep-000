@@ -22,6 +22,6 @@ function iLoveTheBeatles(n){
   var emptyArray = []
   do {
       emptyArray.push("I love the Beatles!");
-      return emptyArray
-  }
+      return emptyArray;
+  } while (n < 16)
 }
