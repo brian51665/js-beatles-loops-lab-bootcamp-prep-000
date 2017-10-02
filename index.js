@@ -22,7 +22,7 @@ var newFacts = new Array(4)
 
 function johnLennonFacts(facts) {
     while (i < 4){
-      facts[i] = facts[i] + "!!!" ;
+      newFacts[i] = facts[i] + "!!!" ;
       i++;
   }
   return facts
