@@ -18,12 +18,10 @@ const facts = [
 
 var i = 0;
 
-var newFacts = new Array(4)
-
 function johnLennonFacts(facts) {
     while (i < 4){
-      newFacts[i] = facts[i] + "!!!" ;
+      facts[i] = facts[i] + "!!!" ;
       i++;
   }
-  return newFacts
+  return facts
 }
