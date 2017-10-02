@@ -19,8 +19,9 @@ return facts
 }
 
 function iLoveTheBeatles(n){
-  var emptyArray1 = []
+  var emptyArray = []
   do {
-      emptyArray1.push("I love the Beatles!")
+      emptyArray.push("I love the Beatles!");
+      return emptyArray
   }
 }
