@@ -18,12 +18,10 @@ const facts = [
 
 var i = 0;
 
-var loudFacts = []
-
 function johnLennonFacts(facts) {
     while (i < 4){
-      loudFacts.push(i) = facts[i] + "!!!";
+      facts[i] = facts[i] + "!!!";
       i++;
   }
-  return loudFacts
+  return facts
 }
