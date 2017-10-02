@@ -16,14 +16,12 @@ const facts = [
   "He hated the sound of his own voice"
 ];
 
-var loudFacts = new Array();
-
 var i = 0;
 
 function johnLennonFacts(facts) {
   while (i < 4){
-    loudFacts.push = (facts[i] + "!!!") ;
+    facts[i] = (facts[i] + "!!!") ;
     i++;
   }
-  return loudFacts
+  return Facts
 }
